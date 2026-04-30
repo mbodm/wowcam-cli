@@ -11,7 +11,7 @@ Greenfield; no source yet. The decisions below are load-bearing — do not chang
 ## Stack
 
 - Python: track the **latest stable release** — bump `requires-python` in `pyproject.toml` as new versions land. `async`/`await` throughout.
-- `httpx` for streamed async HTTP; stdlib `zipfile` via `asyncio.to_thread` for extraction (no extra async-zip dep)
+- `httpx` for async HTTP; stdlib `zipfile` via `asyncio.to_thread` for extraction (no extra async-zip dep)
 - **uv** manages venv and deps; metadata in `pyproject.toml`; package at `src/wowcam/`; entry point `python -m wowcam`
 - Type hints everywhere, but **no static type checker** (no mypy / pyright / ty) — rely on hints + IDE feedback
 - Ruff with **defaults** — no `[tool.ruff]` section unless a concrete rule is needed
