@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ========================================================================= -->
+<!-- Please have a look at https://github.com/mbodm/wowcam-cli for file format -->
+<!-- ========================================================================= -->
+<wowcam>
+	<general>
+		<profile>retail</profile>
+		<temp>%TEMP%</temp>
+	</general>
+	<profiles>
+		<retail>
+			<folder>%PROGRAMFILES(X86)%\World of Warcraft\_retail_\Interface\AddOns</folder>
+			<addons>
+				<url>https://www.curseforge.com/wow/addons/deadly-boss-mods</url>
+				<url>https://www.curseforge.com/wow/addons/details</url>
+				<url>https://www.curseforge.com/wow/addons/groupfinderflags</url>
+				<url>https://www.curseforge.com/wow/addons/handynotes</url>
+				<url>https://www.curseforge.com/wow/addons/handynotes-the-war-within</url>
+				<url>https://www.curseforge.com/wow/addons/raiderio</url>
+				<url>https://www.curseforge.com/wow/addons/tomtom</url>
+				<url>https://www.curseforge.com/wow/addons/weakauras-2</url>
+				<url>https://www.curseforge.com/wow/addons/simulationcraft</url>
+			</addons>
+		</retail>
+	</profiles>
+</wowcam>
