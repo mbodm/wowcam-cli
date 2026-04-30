@@ -5,6 +5,7 @@
 <wowcam>
 	<general>
 		<profile>retail</profile>
+		<token>12345</token>
 		<temp>%TEMP%</temp>
 	</general>
 	<profiles>
